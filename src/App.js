@@ -6,6 +6,7 @@ import Rooms from "./pages/Rooms";
 import ErrorPage from "./pages/ErrorPage";
 
 import { Route, Switch } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
