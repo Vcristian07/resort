@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Hero from "./../component/hero";
-import Banner from "./../component/banner";
+import Hero from "../components/hero";
+import Banner from "../components/banner";
 import { Link } from "react-router-dom";
-import Services from "../component/services";
+import Services from "../components/services";
+import FeaturedRooms from "../components/featuredRooms";
 
 class Home extends Component {
   state = {};
@@ -17,6 +18,7 @@ class Home extends Component {
           </Banner>
         </Hero>
         <Services />
+        <FeaturedRooms />
       </>
     );
   }

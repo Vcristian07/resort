@@ -1,23 +1,21 @@
-import React, { Component } from "react";
-
-import Hero from "./../component/hero";
-import Banner from "./../component/banner";
-
+import React from "react";
+import Hero from "../components/hero";
+import Banner from "../components/banner";
 import { Link } from "react-router-dom";
-
-class Rooms extends Component {
-  state = {};
-  render() {
-    return (
+import RoomsContainer from "../components/roomsContainer";
+const Rooms = () => {
+  return (
+    <>
       <Hero hero="roomsHero">
-        <Banner title="Luxurious Rooms" subtitle="Deluxe rooms">
+        <Banner title="our rooms">
           <Link to="/" className="btn-primary">
-            go to home
+            return home
           </Link>
         </Banner>
       </Hero>
-    );
-  }
-}
+      <RoomsContainer />
+    </>
+  );
+};
 
 export default Rooms;

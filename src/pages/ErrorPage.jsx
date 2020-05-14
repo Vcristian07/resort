@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Hero from "./../component/hero";
-import Banner from "./../component/banner";
+import Hero from "./../components/hero";
+import Banner from "./../components/banner";
 import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
